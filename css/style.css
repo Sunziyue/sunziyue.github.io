@@ -839,3 +839,9 @@ a:active {
     font-size: 14px;
     color: #666666;
 }
+
+.btn-animate {
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
