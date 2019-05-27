@@ -5,6 +5,7 @@
 <head>
     <title>Sunziyue</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/flexslider.css">
@@ -616,7 +617,7 @@
                         </li>
                         <li>
                             <li class="fa fa-home"> : </li>
-                            <iframe src="map.html" width="500px" height="313PX" frameborder="0" scrolling="no"></iframe>
+                            <div id="container" class="px-3" style="height: 320px"></div>
                         </li>
                     </ul>
                 </div>
@@ -665,9 +666,12 @@
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 
     <script src="js/custom.js"></script>
-
+    <!-- EmailJS -->
     <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
     <script src="js/email.js"></script>
+    <!-- 高德地图 -->
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.14&key=24dec3c321ca45730e11eacd9c43ebc8"></script>
+    <script src="js/amap.js"></script>
 
 
 </body>
